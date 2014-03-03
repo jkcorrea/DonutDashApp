@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		756DA6AA18C52C7800B33FE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 756DA6A918C52C7800B33FE5 /* Foundation.framework */; };
+		756DA6AC18C52C7800B33FE5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 756DA6AB18C52C7800B33FE5 /* CoreGraphics.framework */; };
+		756DA6AE18C52C7800B33FE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 756DA6AD18C52C7800B33FE5 /* UIKit.framework */; };
+		756DA6B418C52C7800B33FE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 756DA6B218C52C7800B33FE5 /* InfoPlist.strings */; };
+		756DA6B618C52C7800B33FE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 756DA6B518C52C7800B33FE5 /* main.m */; };
+		756DA6BA18C52C7800B33FE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 756DA6B918C52C7800B33FE5 /* AppDelegate.m */; };
+		756DA6BD18C52C7800B33FE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756DA6BB18C52C7800B33FE5 /* Main.storyboard */; };
+		756DA6C018C52C7800B33FE5 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 756DA6BF18C52C7800B33FE5 /* HomeViewController.m */; };
+		756DA6C318C52C7800B33FE5 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 756DA6C218C52C7800B33FE5 /* RegisterViewController.m */; };
+		756DA6C518C52C7800B33FE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 756DA6C418C52C7800B33FE5 /* Images.xcassets */; };
+		756DA6CC18C52C7800B33FE5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 756DA6CB18C52C7800B33FE5 /* XCTest.framework */; };
+		756DA6CD18C52C7800B33FE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 756DA6A918C52C7800B33FE5 /* Foundation.framework */; };
+		756DA6CE18C52C7800B33FE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 756DA6AD18C52C7800B33FE5 /* UIKit.framework */; };
+		756DA6D618C52C7900B33FE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 756DA6D418C52C7900B33FE5 /* InfoPlist.strings */; };
+		756DA6D818C52C7900B33FE5 /* DonutDashMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 756DA6D718C52C7900B33FE5 /* DonutDashMobileTests.m */; };
+		756DA6E518C52ED600B33FE5 /* DonateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 756DA6E418C52ED600B33FE5 /* DonateViewController.m */; };
+		756DA6EA18C535FC00B33FE5 /* AllerDisplay.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 756DA6E718C535FC00B33FE5 /* AllerDisplay.ttf */; };
+		756DA6EB18C535FC00B33FE5 /* TradeGothicLTStd-BdCn20.otf in Resources */ = {isa = PBXBuildFile; fileRef = 756DA6E818C535FC00B33FE5 /* TradeGothicLTStd-BdCn20.otf */; };
+		756DA6EC18C535FC00B33FE5 /* TradeGothicLTStd.otf in Resources */ = {isa = PBXBuildFile; fileRef = 756DA6E918C535FC00B33FE5 /* TradeGothicLTStd.otf */; };
+		756DA6F018C53ACE00B33FE5 /* DonutDashTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 756DA6EF18C53ACE00B33FE5 /* DonutDashTitleLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		756DA6CF18C52C7800B33FE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 756DA69E18C52C7800B33FE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 756DA6A518C52C7800B33FE5;
+			remoteInfo = DonutDashMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		756DA6A618C52C7800B33FE5 /* DonutDashMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DonutDashMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		756DA6A918C52C7800B33FE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		756DA6AB18C52C7800B33FE5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		756DA6AD18C52C7800B33FE5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		756DA6B118C52C7800B33FE5 /* DonutDashMobile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DonutDashMobile-Info.plist"; sourceTree = "<group>"; };
+		756DA6B318C52C7800B33FE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		756DA6B518C52C7800B33FE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		756DA6B718C52C7800B33FE5 /* DonutDashMobile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DonutDashMobile-Prefix.pch"; sourceTree = "<group>"; };
+		756DA6B818C52C7800B33FE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		756DA6B918C52C7800B33FE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		756DA6BC18C52C7800B33FE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		756DA6BE18C52C7800B33FE5 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		756DA6BF18C52C7800B33FE5 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		756DA6C118C52C7800B33FE5 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		756DA6C218C52C7800B33FE5 /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		756DA6C418C52C7800B33FE5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		756DA6CA18C52C7800B33FE5 /* DonutDashMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DonutDashMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		756DA6CB18C52C7800B33FE5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		756DA6D318C52C7900B33FE5 /* DonutDashMobileTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DonutDashMobileTests-Info.plist"; sourceTree = "<group>"; };
+		756DA6D518C52C7900B33FE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		756DA6D718C52C7900B33FE5 /* DonutDashMobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DonutDashMobileTests.m; sourceTree = "<group>"; };
+		756DA6E318C52ED600B33FE5 /* DonateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonateViewController.h; sourceTree = "<group>"; };
+		756DA6E418C52ED600B33FE5 /* DonateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonateViewController.m; sourceTree = "<group>"; };
+		756DA6E718C535FC00B33FE5 /* AllerDisplay.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AllerDisplay.ttf; sourceTree = "<group>"; };
+		756DA6E818C535FC00B33FE5 /* TradeGothicLTStd-BdCn20.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TradeGothicLTStd-BdCn20.otf"; sourceTree = "<group>"; };
+		756DA6E918C535FC00B33FE5 /* TradeGothicLTStd.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TradeGothicLTStd.otf; sourceTree = "<group>"; };
+		756DA6EE18C53ACE00B33FE5 /* DonutDashTitleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonutDashTitleLabel.h; sourceTree = "<group>"; };
+		756DA6EF18C53ACE00B33FE5 /* DonutDashTitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonutDashTitleLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		756DA6A318C52C7800B33FE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756DA6AC18C52C7800B33FE5 /* CoreGraphics.framework in Frameworks */,
+				756DA6AE18C52C7800B33FE5 /* UIKit.framework in Frameworks */,
+				756DA6AA18C52C7800B33FE5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		756DA6C718C52C7800B33FE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756DA6CC18C52C7800B33FE5 /* XCTest.framework in Frameworks */,
+				756DA6CE18C52C7800B33FE5 /* UIKit.framework in Frameworks */,
+				756DA6CD18C52C7800B33FE5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		756DA69D18C52C7800B33FE5 = {
+			isa = PBXGroup;
+			children = (
+				756DA6AF18C52C7800B33FE5 /* DonutDashMobile */,
+				756DA6D118C52C7800B33FE5 /* DonutDashMobileTests */,
+				756DA6A818C52C7800B33FE5 /* Frameworks */,
+				756DA6A718C52C7800B33FE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		756DA6A718C52C7800B33FE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				756DA6A618C52C7800B33FE5 /* DonutDashMobile.app */,
+				756DA6CA18C52C7800B33FE5 /* DonutDashMobileTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		756DA6A818C52C7800B33FE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				756DA6A918C52C7800B33FE5 /* Foundation.framework */,
+				756DA6AB18C52C7800B33FE5 /* CoreGraphics.framework */,
+				756DA6AD18C52C7800B33FE5 /* UIKit.framework */,
+				756DA6CB18C52C7800B33FE5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		756DA6AF18C52C7800B33FE5 /* DonutDashMobile */ = {
+			isa = PBXGroup;
+			children = (
+				756DA6E618C535DC00B33FE5 /* Resources */,
+				756DA6E418C52ED600B33FE5 /* DonateViewController.m */,
+				756DA6E318C52ED600B33FE5 /* DonateViewController.h */,
+				756DA6B818C52C7800B33FE5 /* AppDelegate.h */,
+				756DA6B918C52C7800B33FE5 /* AppDelegate.m */,
+				756DA6BB18C52C7800B33FE5 /* Main.storyboard */,
+				756DA6BE18C52C7800B33FE5 /* HomeViewController.h */,
+				756DA6BF18C52C7800B33FE5 /* HomeViewController.m */,
+				756DA6C118C52C7800B33FE5 /* RegisterViewController.h */,
+				756DA6C218C52C7800B33FE5 /* RegisterViewController.m */,
+				756DA6C418C52C7800B33FE5 /* Images.xcassets */,
+				756DA6B018C52C7800B33FE5 /* Supporting Files */,
+			);
+			path = DonutDashMobile;
+			sourceTree = "<group>";
+		};
+		756DA6B018C52C7800B33FE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				756DA6B118C52C7800B33FE5 /* DonutDashMobile-Info.plist */,
+				756DA6B218C52C7800B33FE5 /* InfoPlist.strings */,
+				756DA6B518C52C7800B33FE5 /* main.m */,
+				756DA6B718C52C7800B33FE5 /* DonutDashMobile-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		756DA6D118C52C7800B33FE5 /* DonutDashMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				756DA6D718C52C7900B33FE5 /* DonutDashMobileTests.m */,
+				756DA6D218C52C7900B33FE5 /* Supporting Files */,
+			);
+			path = DonutDashMobileTests;
+			sourceTree = "<group>";
+		};
+		756DA6D218C52C7900B33FE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				756DA6D318C52C7900B33FE5 /* DonutDashMobileTests-Info.plist */,
+				756DA6D418C52C7900B33FE5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		756DA6E618C535DC00B33FE5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				756DA6EE18C53ACE00B33FE5 /* DonutDashTitleLabel.h */,
+				756DA6EF18C53ACE00B33FE5 /* DonutDashTitleLabel.m */,
+				756DA6E718C535FC00B33FE5 /* AllerDisplay.ttf */,
+				756DA6E818C535FC00B33FE5 /* TradeGothicLTStd-BdCn20.otf */,
+				756DA6E918C535FC00B33FE5 /* TradeGothicLTStd.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		756DA6A518C52C7800B33FE5 /* DonutDashMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 756DA6DB18C52C7900B33FE5 /* Build configuration list for PBXNativeTarget "DonutDashMobile" */;
+			buildPhases = (
+				756DA6A218C52C7800B33FE5 /* Sources */,
+				756DA6A318C52C7800B33FE5 /* Frameworks */,
+				756DA6A418C52C7800B33FE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DonutDashMobile;
+			productName = DonutDashMobile;
+			productReference = 756DA6A618C52C7800B33FE5 /* DonutDashMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		756DA6C918C52C7800B33FE5 /* DonutDashMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 756DA6DE18C52C7900B33FE5 /* Build configuration list for PBXNativeTarget "DonutDashMobileTests" */;
+			buildPhases = (
+				756DA6C618C52C7800B33FE5 /* Sources */,
+				756DA6C718C52C7800B33FE5 /* Frameworks */,
+				756DA6C818C52C7800B33FE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				756DA6D018C52C7800B33FE5 /* PBXTargetDependency */,
+			);
+			name = DonutDashMobileTests;
+			productName = DonutDashMobileTests;
+			productReference = 756DA6CA18C52C7800B33FE5 /* DonutDashMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		756DA69E18C52C7800B33FE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "SAE PA Phi";
+				TargetAttributes = {
+					756DA6C918C52C7800B33FE5 = {
+						TestTargetID = 756DA6A518C52C7800B33FE5;
+					};
+				};
+			};
+			buildConfigurationList = 756DA6A118C52C7800B33FE5 /* Build configuration list for PBXProject "DonutDashMobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 756DA69D18C52C7800B33FE5;
+			productRefGroup = 756DA6A718C52C7800B33FE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				756DA6A518C52C7800B33FE5 /* DonutDashMobile */,
+				756DA6C918C52C7800B33FE5 /* DonutDashMobileTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		756DA6A418C52C7800B33FE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756DA6EC18C535FC00B33FE5 /* TradeGothicLTStd.otf in Resources */,
+				756DA6EA18C535FC00B33FE5 /* AllerDisplay.ttf in Resources */,
+				756DA6C518C52C7800B33FE5 /* Images.xcassets in Resources */,
+				756DA6B418C52C7800B33FE5 /* InfoPlist.strings in Resources */,
+				756DA6EB18C535FC00B33FE5 /* TradeGothicLTStd-BdCn20.otf in Resources */,
+				756DA6BD18C52C7800B33FE5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		756DA6C818C52C7800B33FE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756DA6D618C52C7900B33FE5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		756DA6A218C52C7800B33FE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756DA6F018C53ACE00B33FE5 /* DonutDashTitleLabel.m in Sources */,
+				756DA6C318C52C7800B33FE5 /* RegisterViewController.m in Sources */,
+				756DA6E518C52ED600B33FE5 /* DonateViewController.m in Sources */,
+				756DA6BA18C52C7800B33FE5 /* AppDelegate.m in Sources */,
+				756DA6C018C52C7800B33FE5 /* HomeViewController.m in Sources */,
+				756DA6B618C52C7800B33FE5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		756DA6C618C52C7800B33FE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756DA6D818C52C7900B33FE5 /* DonutDashMobileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		756DA6D018C52C7800B33FE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 756DA6A518C52C7800B33FE5 /* DonutDashMobile */;
+			targetProxy = 756DA6CF18C52C7800B33FE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		756DA6B218C52C7800B33FE5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				756DA6B318C52C7800B33FE5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		756DA6BB18C52C7800B33FE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				756DA6BC18C52C7800B33FE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		756DA6D418C52C7900B33FE5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				756DA6D518C52C7900B33FE5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		756DA6D918C52C7900B33FE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		756DA6DA18C52C7900B33FE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		756DA6DC18C52C7900B33FE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DonutDashMobile/DonutDashMobile-Prefix.pch";
+				INFOPLIST_FILE = "DonutDashMobile/DonutDashMobile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		756DA6DD18C52C7900B33FE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DonutDashMobile/DonutDashMobile-Prefix.pch";
+				INFOPLIST_FILE = "DonutDashMobile/DonutDashMobile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		756DA6DF18C52C7900B33FE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DonutDashMobile.app/DonutDashMobile";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DonutDashMobile/DonutDashMobile-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DonutDashMobileTests/DonutDashMobileTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		756DA6E018C52C7900B33FE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DonutDashMobile.app/DonutDashMobile";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DonutDashMobile/DonutDashMobile-Prefix.pch";
+				INFOPLIST_FILE = "DonutDashMobileTests/DonutDashMobileTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		756DA6A118C52C7800B33FE5 /* Build configuration list for PBXProject "DonutDashMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				756DA6D918C52C7900B33FE5 /* Debug */,
+				756DA6DA18C52C7900B33FE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		756DA6DB18C52C7900B33FE5 /* Build configuration list for PBXNativeTarget "DonutDashMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				756DA6DC18C52C7900B33FE5 /* Debug */,
+				756DA6DD18C52C7900B33FE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		756DA6DE18C52C7900B33FE5 /* Build configuration list for PBXNativeTarget "DonutDashMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				756DA6DF18C52C7900B33FE5 /* Debug */,
+				756DA6E018C52C7900B33FE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 756DA69E18C52C7800B33FE5 /* Project object */;
+}
