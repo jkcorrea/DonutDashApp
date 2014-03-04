@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface RegisterViewController : UIViewController
+- (IBAction)submitButtonClicked:(id)sender;
+@property (strong, nonatomic) IBOutlet UIButton *submitButton;
 
 @end
