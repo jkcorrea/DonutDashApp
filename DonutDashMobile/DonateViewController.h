@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <VenmoTouch/VenmoTouch.h>
+#import "BTPaymentViewController.h"
 
-@interface DonateViewController : UIViewController <UITextFieldDelegate>
+@interface DonateViewController : UIViewController <UITextFieldDelegate, BTPaymentViewControllerDelegate>
 
 @property (strong, nonatomic) IBOutlet UITextField *textFirstName;
 @property (strong, nonatomic) IBOutlet UITextField *textLastName;

@@ -7,20 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		753D480418C7A618004971D6 /* BTPayment-Prefix.pch in Sources */ = {isa = PBXBuildFile; fileRef = 753D479618C7A5D5004971D6 /* BTPayment-Prefix.pch */; };
-		753D480518C7A618004971D6 /* BTPaymentActivityOverlayView.h in Sources */ = {isa = PBXBuildFile; fileRef = 753D479718C7A5D5004971D6 /* BTPaymentActivityOverlayView.h */; };
 		753D480618C7A618004971D6 /* BTPaymentActivityOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 753D479818C7A5D5004971D6 /* BTPaymentActivityOverlayView.m */; };
-		753D480718C7A618004971D6 /* BTPaymentCardType.h in Sources */ = {isa = PBXBuildFile; fileRef = 753D479918C7A5D5004971D6 /* BTPaymentCardType.h */; };
 		753D480818C7A618004971D6 /* BTPaymentCardType.m in Sources */ = {isa = PBXBuildFile; fileRef = 753D479A18C7A5D5004971D6 /* BTPaymentCardType.m */; };
-		753D480918C7A618004971D6 /* BTPaymentCardUtils.h in Sources */ = {isa = PBXBuildFile; fileRef = 753D479B18C7A5D5004971D6 /* BTPaymentCardUtils.h */; };
 		753D480A18C7A618004971D6 /* BTPaymentCardUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 753D479C18C7A5D5004971D6 /* BTPaymentCardUtils.m */; };
-		753D480B18C7A618004971D6 /* BTPaymentFormTextField.h in Sources */ = {isa = PBXBuildFile; fileRef = 753D479D18C7A5D5004971D6 /* BTPaymentFormTextField.h */; };
 		753D480C18C7A618004971D6 /* BTPaymentFormTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 753D479E18C7A5D5004971D6 /* BTPaymentFormTextField.m */; };
-		753D480D18C7A618004971D6 /* BTPaymentFormView.h in Sources */ = {isa = PBXBuildFile; fileRef = 753D479F18C7A5D5004971D6 /* BTPaymentFormView.h */; };
 		753D480E18C7A618004971D6 /* BTPaymentFormView.m in Sources */ = {isa = PBXBuildFile; fileRef = 753D47A018C7A5D5004971D6 /* BTPaymentFormView.m */; };
-		753D480F18C7A618004971D6 /* BTPaymentSectionHeaderView.h in Sources */ = {isa = PBXBuildFile; fileRef = 753D47A118C7A5D5004971D6 /* BTPaymentSectionHeaderView.h */; };
 		753D481018C7A618004971D6 /* BTPaymentSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 753D47A218C7A5D5004971D6 /* BTPaymentSectionHeaderView.m */; };
-		753D481118C7A618004971D6 /* BTPaymentViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 753D47A318C7A5D5004971D6 /* BTPaymentViewController.h */; };
 		753D481218C7A618004971D6 /* BTPaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 753D47A418C7A5D5004971D6 /* BTPaymentViewController.m */; };
 		753D481318C7A65C004971D6 /* BraintreeResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 753D47AB18C7A5D5004971D6 /* BraintreeResources.bundle */; };
 		753D481418C7A65C004971D6 /* VenmoTouchResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 753D47EE18C7A5D5004971D6 /* VenmoTouchResources.bundle */; };
@@ -50,6 +42,7 @@
 		756DA6EB18C535FC00B33FE5 /* TradeGothicLTStd-BdCn20.otf in Resources */ = {isa = PBXBuildFile; fileRef = 756DA6E818C535FC00B33FE5 /* TradeGothicLTStd-BdCn20.otf */; };
 		756DA6EC18C535FC00B33FE5 /* TradeGothicLTStd.otf in Resources */ = {isa = PBXBuildFile; fileRef = 756DA6E918C535FC00B33FE5 /* TradeGothicLTStd.otf */; };
 		756DA6F018C53ACE00B33FE5 /* DonutDashTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 756DA6EF18C53ACE00B33FE5 /* DonutDashTitleLabel.m */; };
+		7590756E18C7BB7A008A0F57 /* CreditCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7590756D18C7BB7A008A0F57 /* CreditCardViewController.m */; };
 		759BFCE918C6482C00E856DD /* DonutDashBodyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 759BFCE818C6482C00E856DD /* DonutDashBodyLabel.m */; };
 		759BFCEC18C651AA00E856DD /* DonutDashBoldLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 759BFCEB18C651AA00E856DD /* DonutDashBoldLabel.m */; };
 		759BFCF418C65B9C00E856DD /* MyUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 759BFCF318C65B9C00E856DD /* MyUtils.m */; };
@@ -115,7 +108,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		753D476918C7A5D5004971D6 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		753D476A18C7A5D5004971D6 /* Braintree.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Braintree.podspec; sourceTree = "<group>"; };
 		753D476B18C7A5D5004971D6 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = CHANGELOG.md; sourceTree = "<group>"; };
 		753D476C18C7A5D5004971D6 /* LICENSES */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSES; sourceTree = "<group>"; };
@@ -263,6 +255,8 @@
 		756DA6E918C535FC00B33FE5 /* TradeGothicLTStd.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TradeGothicLTStd.otf; sourceTree = "<group>"; };
 		756DA6EE18C53ACE00B33FE5 /* DonutDashTitleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonutDashTitleLabel.h; sourceTree = "<group>"; };
 		756DA6EF18C53ACE00B33FE5 /* DonutDashTitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonutDashTitleLabel.m; sourceTree = "<group>"; };
+		7590756C18C7BB7A008A0F57 /* CreditCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditCardViewController.h; sourceTree = "<group>"; };
+		7590756D18C7BB7A008A0F57 /* CreditCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditCardViewController.m; sourceTree = "<group>"; };
 		759BFCE718C6482C00E856DD /* DonutDashBodyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonutDashBodyLabel.h; sourceTree = "<group>"; };
 		759BFCE818C6482C00E856DD /* DonutDashBodyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonutDashBodyLabel.m; sourceTree = "<group>"; };
 		759BFCEA18C651AA00E856DD /* DonutDashBoldLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonutDashBoldLabel.h; sourceTree = "<group>"; };
@@ -304,7 +298,6 @@
 		753D476818C7A5D5004971D6 /* braintree_ios */ = {
 			isa = PBXGroup;
 			children = (
-				753D476918C7A5D5004971D6 /* .gitignore */,
 				753D476A18C7A5D5004971D6 /* Braintree.podspec */,
 				753D476B18C7A5D5004971D6 /* CHANGELOG.md */,
 				753D476C18C7A5D5004971D6 /* LICENSES */,
@@ -578,6 +571,8 @@
 				756DA6C218C52C7800B33FE5 /* RegisterViewController.m */,
 				756DA6C418C52C7800B33FE5 /* Images.xcassets */,
 				756DA6B018C52C7800B33FE5 /* Supporting Files */,
+				7590756C18C7BB7A008A0F57 /* CreditCardViewController.h */,
+				7590756D18C7BB7A008A0F57 /* CreditCardViewController.m */,
 			);
 			path = DonutDashMobile;
 			sourceTree = "<group>";
@@ -787,20 +782,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				753D480418C7A618004971D6 /* BTPayment-Prefix.pch in Sources */,
-				753D480518C7A618004971D6 /* BTPaymentActivityOverlayView.h in Sources */,
 				753D480618C7A618004971D6 /* BTPaymentActivityOverlayView.m in Sources */,
-				753D480718C7A618004971D6 /* BTPaymentCardType.h in Sources */,
 				753D480818C7A618004971D6 /* BTPaymentCardType.m in Sources */,
-				753D480918C7A618004971D6 /* BTPaymentCardUtils.h in Sources */,
 				753D480A18C7A618004971D6 /* BTPaymentCardUtils.m in Sources */,
-				753D480B18C7A618004971D6 /* BTPaymentFormTextField.h in Sources */,
 				753D480C18C7A618004971D6 /* BTPaymentFormTextField.m in Sources */,
-				753D480D18C7A618004971D6 /* BTPaymentFormView.h in Sources */,
 				753D480E18C7A618004971D6 /* BTPaymentFormView.m in Sources */,
-				753D480F18C7A618004971D6 /* BTPaymentSectionHeaderView.h in Sources */,
 				753D481018C7A618004971D6 /* BTPaymentSectionHeaderView.m in Sources */,
-				753D481118C7A618004971D6 /* BTPaymentViewController.h in Sources */,
 				753D481218C7A618004971D6 /* BTPaymentViewController.m in Sources */,
 				759BFCF418C65B9C00E856DD /* MyUtils.m in Sources */,
 				759BFCE918C6482C00E856DD /* DonutDashBodyLabel.m in Sources */,
@@ -811,6 +798,7 @@
 				756DA6BA18C52C7800B33FE5 /* AppDelegate.m in Sources */,
 				756DA6C018C52C7800B33FE5 /* HomeViewController.m in Sources */,
 				756DA6B618C52C7800B33FE5 /* main.m in Sources */,
+				7590756E18C7BB7A008A0F57 /* CreditCardViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

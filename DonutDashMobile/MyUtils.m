@@ -34,7 +34,7 @@
     }
     
     regfree(&regex_obj);
-    return NSMakeRange(match.rm_so, match.rm_eo - match.rm_so);
+    return NSMakeRange((int)match.rm_so, (int)match.rm_eo - (int)match.rm_so);
 }
 
 @end

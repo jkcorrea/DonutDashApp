@@ -8,7 +8,9 @@
 
 #import "DonateViewController.h"
 
-@interface DonateViewController ()
+@interface DonateViewController () {
+    BTPaymentViewController *paymentViewController;
+}
 
 @end
 
@@ -65,8 +67,32 @@
     [super touchesBegan:touches withEvent:event];
 }
 
--(void)doneWithNumberPad {
+- (void)doneWithNumberPad {
     [self.textReason becomeFirstResponder];
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    paymentViewController =
+    [BTPaymentViewController paymentViewControllerWithVenmoTouchEnabled:YES];
+    paymentViewController.delegate = self;
+    
+    // Add paymentViewController to a navigation controller.
+    UINavigationController *paymentNavigationController =
+    [[UINavigationController alloc] initWithRootViewController:paymentViewController];
+    
+    // Add the cancel button
+    paymentViewController.navigationItem.leftBarButtonItem =
+    [[UIBarButtonItem alloc]
+     initWithBarButtonSystemItem:UIBarButtonSystemItemCancel target:paymentNavigationController
+     action:@selector(dismissModalViewControllerAnimated:)];
+    
+    [self presentViewController:paymentNavigationController animated:YES completion:nil];
+}
+
+- (void)paymentViewController:(BTPaymentViewController *)paymentViewController
+        didSubmitCardWithInfo:(NSDictionary *)cardInfo
+         andCardInfoEncrypted:(NSDictionary *)cardInfoEncrypted {
+    // Card submitted
 }
 
 @end

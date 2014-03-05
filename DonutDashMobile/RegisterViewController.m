@@ -1,5 +1,5 @@
 //
-//  SecondViewController.m
+//  RegisterViewController.m
 //  DonutDashMobile
 //
 //  Created by Jacob Correa on 3/3/14.
@@ -8,7 +8,9 @@
 
 #import "RegisterViewController.h"
 
-@interface RegisterViewController ()
+@interface RegisterViewController () {
+    BTPaymentViewController *paymentViewController;
+}
 
 @end
 
@@ -46,10 +48,34 @@
     return YES;
 }
 
-- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     //NSLog(@"touchesBegan:withEvent:");
     [self.view endEditing:YES];
     [super touchesBegan:touches withEvent:event];
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    paymentViewController =
+    [BTPaymentViewController paymentViewControllerWithVenmoTouchEnabled:YES];
+    paymentViewController.delegate = self;
+    
+    // Add paymentViewController to a navigation controller.
+    UINavigationController *paymentNavigationController =
+    [[UINavigationController alloc] initWithRootViewController:paymentViewController];
+    
+    // Add the cancel button
+    paymentViewController.navigationItem.leftBarButtonItem =
+    [[UIBarButtonItem alloc]
+     initWithBarButtonSystemItem:UIBarButtonSystemItemCancel target:paymentNavigationController
+     action:@selector(dismissModalViewControllerAnimated:)];
+    
+    [self presentViewController:paymentNavigationController animated:YES completion:nil];
+}
+
+- (void)paymentViewController:(BTPaymentViewController *)paymentViewController
+        didSubmitCardWithInfo:(NSDictionary *)cardInfo
+         andCardInfoEncrypted:(NSDictionary *)cardInfoEncrypted {
+    // Credit Card submitted
 }
 
 @end

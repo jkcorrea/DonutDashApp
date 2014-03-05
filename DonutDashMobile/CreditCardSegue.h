@@ -1,5 +1,5 @@
 //
-//  CreditCardViewController.h
+//  CreditCardSegue.h
 //  DonutDashMobile
 //
 //  Created by Jacob Correa on 3/5/14.
@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BTPaymentViewController.h"
 
-@interface CreditCardViewController : BTPaymentViewController
+@interface CreditCardSegue : UIStoryboardSegue
 
 @end
