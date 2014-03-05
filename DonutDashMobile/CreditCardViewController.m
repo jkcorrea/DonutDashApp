@@ -14,20 +14,19 @@
 
 @implementation CreditCardViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    
+    //[self.SubmitButton.titlelabel setFont: []
+    //Set Delegates
+    self.textCardNumber.delegate = self;
+    self.textExpDate.delegate = self;
+    self.textSecurityCode.delegate =self;
 }
+
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -35,4 +34,18 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    // Set the next textfield, otherwise exit keyboard
+    if (textField == self.textCardNumber)
+        [self.textExpDate becomeFirstResponder];
+    else if (textField == self.textExpDate)
+        [self.textSecurityCode becomeFirstResponder];
+    else
+        [textField resignFirstResponder];
+    return YES;
+}
+
+
+- (IBAction)submitButton:(id)sender {
+}
 @end
