@@ -15,6 +15,7 @@
 @property (strong, nonatomic) IBOutlet UITextField *textCardNumber;
 @property (strong, nonatomic) IBOutlet UITextField *textExpDate;
 @property (strong, nonatomic) IBOutlet UITextField *textSecurityCode;
+- (IBAction)submitButton:(id)sender;
 
 
 @end
