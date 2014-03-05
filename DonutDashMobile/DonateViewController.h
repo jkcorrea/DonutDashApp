@@ -22,4 +22,6 @@
 
 @property (strong, nonatomic) IBOutlet UIButton *submitButton;
 
+- (IBAction)radioSelected:(id)sender;
+
 @end

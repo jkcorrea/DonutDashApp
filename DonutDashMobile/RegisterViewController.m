@@ -55,6 +55,16 @@
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    
+}
+
+- (void)paymentViewController:(BTPaymentViewController *)paymentViewController
+        didSubmitCardWithInfo:(NSDictionary *)cardInfo
+         andCardInfoEncrypted:(NSDictionary *)cardInfoEncrypted {
+    // Credit Card submitted
+}
+
+- (IBAction)radioSelected:(id)sender {
     paymentViewController =
     [BTPaymentViewController paymentViewControllerWithVenmoTouchEnabled:YES];
     paymentViewController.delegate = self;
@@ -71,11 +81,4 @@
     
     [self presentViewController:paymentNavigationController animated:YES completion:nil];
 }
-
-- (void)paymentViewController:(BTPaymentViewController *)paymentViewController
-        didSubmitCardWithInfo:(NSDictionary *)cardInfo
-         andCardInfoEncrypted:(NSDictionary *)cardInfoEncrypted {
-    // Credit Card submitted
-}
-
 @end
