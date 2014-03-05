@@ -12,6 +12,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [self initVTClient];
+    
     // Override point for customization after application launch.
     return YES;
 }
@@ -41,6 +43,14 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (void) initVTClient {
+    [VTClient
+     startWithMerchantID:@"fptpbjp9fjyzmvd2"
+     customerEmail:@"jcorrea257@gmail.com"
+     braintreeClientSideEncryptionKey:@"MIIBCgKCAQEAob6DqTTSIxicyQa6gtc+eIKSmC2H2qWYTTdpsoXcUkldYk7bfMdoD2yeUyEKGeUTCdGMQHtXteOh9zwRTVn5m/gceLMah/aVF1TPkqQZ6PgfLzLmMStrRvdpLQA0/cHWkAi/xZDVvJBVm8dvu/cUgtWSBjwHfqKYRkNHpi51PLfrWGW3STeZ/QxCtMLWH2CFRHcHsfDvY+ZUj6BfeBjDuz5qe7wHHrbGobYUW42KLMU2CGCriOoyuTTceKXKH1cTWegySihRUkg9D4PnKeMWtcmuEZ2YFchPUYZwFiD5HZwklI9Vz6fK+pTh0mTCSlikcS1WzT2hpbYlSDpOknsPOwIDAQAB"
+     environment:VTEnvironmentSandbox];
 }
 
 @end
