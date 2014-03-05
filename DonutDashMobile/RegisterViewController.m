@@ -18,6 +18,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [self.submitButton.titleLabel setFont: [UIFont fontWithName:@"AllerDisplay" size: self.submitButton.titleLabel.font.pointSize]];
 }
 
 - (void)didReceiveMemoryWarning
@@ -26,4 +27,6 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)submitButtonClicked:(id)sender {
+}
 @end
