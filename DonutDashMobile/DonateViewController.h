@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DonateViewController : UIViewController
+@interface DonateViewController : UIViewController <UITextFieldDelegate>
+
+@property (strong, nonatomic) IBOutlet UITextField *textFirstName;
+@property (strong, nonatomic) IBOutlet UITextField *textLastName;
+@property (strong, nonatomic) IBOutlet UITextField *textEmail;
+@property (strong, nonatomic) IBOutlet UITextField *textReason;
+@property (strong, nonatomic) IBOutlet UITextField *textAmount;
+
+@property (strong, nonatomic) IBOutlet UISegmentedControl *radioPayment;
+
+@property (strong, nonatomic) IBOutlet UIButton *submitButton;
 
 @end
