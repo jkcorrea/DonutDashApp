@@ -35,7 +35,7 @@
 		<key>UINavigationBar</key>
 		<dict>
 			<key>Style</key>
-			<string>UIBarStyleDefault</string>
+			<dict/>
 			<key>Translucent</key>
 			<false/>
 		</dict>
@@ -46,6 +46,8 @@
 		<string>TradeGothicLTStd-BdCn20.otf</string>
 		<string>TradeGothicLTStd.otf</string>
 	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<true/>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
