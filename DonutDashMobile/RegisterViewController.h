@@ -8,8 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RegisterViewController : UIViewController
-- (IBAction)submitButtonClicked:(id)sender;
+@interface RegisterViewController : UIViewController <UITextFieldDelegate>
+
+@property (strong, nonatomic) IBOutlet UITextField *textFirstName;
+@property (strong, nonatomic) IBOutlet UITextField *textLastName;
+@property (strong, nonatomic) IBOutlet UITextField *textEmail;
+
+@property (strong, nonatomic) IBOutlet UISegmentedControl *radioPayment;
+@property (strong, nonatomic) IBOutlet UISegmentedControl *radioDivision;
+
 @property (strong, nonatomic) IBOutlet UIButton *submitButton;
 
 @end

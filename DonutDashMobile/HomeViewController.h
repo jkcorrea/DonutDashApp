@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DonutDashBodyLabel.h"
+#import "MyUtils.h"
+#include <regex.h>
 
 @interface HomeViewController : UIViewController
+@property (strong, nonatomic) IBOutlet DonutDashBodyLabel *descriptionLabel;
 
 @end

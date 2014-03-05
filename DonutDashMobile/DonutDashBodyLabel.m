@@ -1,14 +1,14 @@
 //
-//  DonutDashTitleLabel.m
+//  DonutDashBodyLabel.m
 //  DonutDashMobile
 //
-//  Created by Jacob Correa on 3/3/14.
+//  Created by Jacob Correa on 3/4/14.
 //  Copyright (c) 2014 SAE PA Phi. All rights reserved.
 //
 
-#import "DonutDashTitleLabel.h"
+#import "DonutDashBodyLabel.h"
 
-@implementation DonutDashTitleLabel
+@implementation DonutDashBodyLabel
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -21,7 +21,7 @@
 
 -(void) awakeFromNib {
     [super awakeFromNib];
-    self.font = [UIFont fontWithName:@"AllerDisplay" size: self.font.pointSize];
+    self.font = [UIFont fontWithName:@"TradeGothicLTStd" size: self.font.pointSize];
 }
 
 @end

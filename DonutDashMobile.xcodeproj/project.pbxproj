@@ -27,6 +27,10 @@
 		756DA6EB18C535FC00B33FE5 /* TradeGothicLTStd-BdCn20.otf in Resources */ = {isa = PBXBuildFile; fileRef = 756DA6E818C535FC00B33FE5 /* TradeGothicLTStd-BdCn20.otf */; };
 		756DA6EC18C535FC00B33FE5 /* TradeGothicLTStd.otf in Resources */ = {isa = PBXBuildFile; fileRef = 756DA6E918C535FC00B33FE5 /* TradeGothicLTStd.otf */; };
 		756DA6F018C53ACE00B33FE5 /* DonutDashTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 756DA6EF18C53ACE00B33FE5 /* DonutDashTitleLabel.m */; };
+		757B62F918C77595009E350E /* CreditCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 757B62F818C77595009E350E /* CreditCardViewController.m */; };
+		759BFCE918C6482C00E856DD /* DonutDashBodyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 759BFCE818C6482C00E856DD /* DonutDashBodyLabel.m */; };
+		759BFCEC18C651AA00E856DD /* DonutDashBoldLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 759BFCEB18C651AA00E856DD /* DonutDashBoldLabel.m */; };
+		759BFCF418C65B9C00E856DD /* MyUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 759BFCF318C65B9C00E856DD /* MyUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +72,14 @@
 		756DA6E918C535FC00B33FE5 /* TradeGothicLTStd.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TradeGothicLTStd.otf; sourceTree = "<group>"; };
 		756DA6EE18C53ACE00B33FE5 /* DonutDashTitleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonutDashTitleLabel.h; sourceTree = "<group>"; };
 		756DA6EF18C53ACE00B33FE5 /* DonutDashTitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonutDashTitleLabel.m; sourceTree = "<group>"; };
+		757B62F718C77594009E350E /* CreditCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditCardViewController.h; sourceTree = "<group>"; };
+		757B62F818C77595009E350E /* CreditCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditCardViewController.m; sourceTree = "<group>"; };
+		759BFCE718C6482C00E856DD /* DonutDashBodyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonutDashBodyLabel.h; sourceTree = "<group>"; };
+		759BFCE818C6482C00E856DD /* DonutDashBodyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonutDashBodyLabel.m; sourceTree = "<group>"; };
+		759BFCEA18C651AA00E856DD /* DonutDashBoldLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonutDashBoldLabel.h; sourceTree = "<group>"; };
+		759BFCEB18C651AA00E856DD /* DonutDashBoldLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonutDashBoldLabel.m; sourceTree = "<group>"; };
+		759BFCF218C65B9C00E856DD /* MyUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUtils.h; sourceTree = "<group>"; };
+		759BFCF318C65B9C00E856DD /* MyUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +139,8 @@
 		756DA6AF18C52C7800B33FE5 /* DonutDashMobile */ = {
 			isa = PBXGroup;
 			children = (
+				759BFCF218C65B9C00E856DD /* MyUtils.h */,
+				759BFCF318C65B9C00E856DD /* MyUtils.m */,
 				756DA6E618C535DC00B33FE5 /* Resources */,
 				756DA6E418C52ED600B33FE5 /* DonateViewController.m */,
 				756DA6E318C52ED600B33FE5 /* DonateViewController.h */,
@@ -139,6 +153,8 @@
 				756DA6C218C52C7800B33FE5 /* RegisterViewController.m */,
 				756DA6C418C52C7800B33FE5 /* Images.xcassets */,
 				756DA6B018C52C7800B33FE5 /* Supporting Files */,
+				757B62F718C77594009E350E /* CreditCardViewController.h */,
+				757B62F818C77595009E350E /* CreditCardViewController.m */,
 			);
 			path = DonutDashMobile;
 			sourceTree = "<group>";
@@ -180,6 +196,10 @@
 				756DA6E718C535FC00B33FE5 /* AllerDisplay.ttf */,
 				756DA6E818C535FC00B33FE5 /* TradeGothicLTStd-BdCn20.otf */,
 				756DA6E918C535FC00B33FE5 /* TradeGothicLTStd.otf */,
+				759BFCE718C6482C00E856DD /* DonutDashBodyLabel.h */,
+				759BFCE818C6482C00E856DD /* DonutDashBodyLabel.m */,
+				759BFCEA18C651AA00E856DD /* DonutDashBoldLabel.h */,
+				759BFCEB18C651AA00E856DD /* DonutDashBoldLabel.m */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -284,12 +304,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				759BFCF418C65B9C00E856DD /* MyUtils.m in Sources */,
+				759BFCE918C6482C00E856DD /* DonutDashBodyLabel.m in Sources */,
 				756DA6F018C53ACE00B33FE5 /* DonutDashTitleLabel.m in Sources */,
+				759BFCEC18C651AA00E856DD /* DonutDashBoldLabel.m in Sources */,
 				756DA6C318C52C7800B33FE5 /* RegisterViewController.m in Sources */,
 				756DA6E518C52ED600B33FE5 /* DonateViewController.m in Sources */,
 				756DA6BA18C52C7800B33FE5 /* AppDelegate.m in Sources */,
 				756DA6C018C52C7800B33FE5 /* HomeViewController.m in Sources */,
 				756DA6B618C52C7800B33FE5 /* main.m in Sources */,
+				757B62F918C77595009E350E /* CreditCardViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +522,7 @@
 				756DA6DD18C52C7900B33FE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		756DA6DE18C52C7900B33FE5 /* Build configuration list for PBXNativeTarget "DonutDashMobileTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +531,7 @@
 				756DA6E018C52C7900B33FE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
